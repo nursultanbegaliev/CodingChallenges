@@ -51,7 +51,22 @@ function nbMonths2(startPriceOld, startPriceNew, savingperMonth, percentLossByMo
 // Test.assertSimilar(nbMonths(2000, 8000, 1000, 1.5), [6, 766])
 // Test.assertSimilar(nbMonths(12000, 8000, 1000, 1.5) ,[0, 4000])
 
-console.log(nbMonths2(2000, 8000, 1000, 1.5));
-console.log(nbMonths2(12000, 8000, 1000, 1.5));
 
+// console.log(nbMonths2(2000, 8000, 1000, 1.5));
+// console.log(nbMonths2(12000, 8000, 1000, 1.5));
 
+function fun() {
+  var a = 3;
+}
+let str = 'fly';
+const m = str.match(/[aeiou]/gi);
+
+let something = fun();
+
+let arr2 = [6, 7, 8];
+const arr = [1, 2, 3, 4, ...arr2];
+console.log(arr);
+arr[1] = 5;
+arr.push(7);
+
+console.log(arr);
