@@ -12,6 +12,12 @@ function numJewelsInStones(jewels, stones) {
 
 let jewels = 'aA';
 let stones = 'aAAbbbb';
+let stones2 = ['a', 'b', 'c'];
+stones2[0] = 'B';
 
-console.log(numJewelsInStones(jewels, stones));
+//console.log(numJewelsInStones(jewels, stones));
 
+stones[0] = 'b';
+stones[1] = 'B';
+console.log(stones);
+console.log(stones2);
