@@ -1,7 +1,7 @@
 function replaceDigits(s) {
   let res = s.split("");
   for (let i = 1; i < s.length; i += 2) {
-    res[i] = "s";
+    res[i] = shift(String(res[i-1]), Number(res[i]));
   }
   return res.join("");
 }
