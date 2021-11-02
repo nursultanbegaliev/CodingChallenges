@@ -17,7 +17,7 @@ function findingUsersActiveMinutes(logs, k) {
   }
 
   for (let key in obj) {
-    if (obj[key].length < k) {
+    if (obj[key].length <= k) {
       uam[obj[key].length - 1] += 1;
     }
     // console.log(obj[key]);
