@@ -7,11 +7,7 @@ var firstUniqChar = function (s) {
       dict[s[i]] = 1;
     }
   }
-  // console.log(dict);
-  // console.log("hello");
   for (let i = 0; i < s.length; i++) {
-    // console.log(dict[s[i]]);
-
     if (dict[s[i]] == 1) {
       return i;
     }
